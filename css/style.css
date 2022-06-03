@@ -1,6 +1,6 @@
 .page {
    backround-color: #FFFFFF;
-   color: #757575;
+   color: #212121;
 }
 
 .logo {
@@ -14,3 +14,17 @@
    list-style: none;
 }
 
+
+/* Site-nav*/
+.link {
+   color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: #2196F3;
+}
+
+.section-title {
+   color: #212121;
+}
