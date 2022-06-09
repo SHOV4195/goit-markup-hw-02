@@ -31,7 +31,7 @@ body {
 .site-nav .link {
    color: var(--title-text-color);
 }
-.site-nav .link .current {
+.site-nav .link.current {
    color: var(---accent-color);
 }
 
