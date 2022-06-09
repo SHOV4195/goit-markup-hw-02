@@ -1,61 +1,123 @@
+:root {
+   --primary-text-color: #F5F4FA;
+   --primary-white-color: #FFFFFF;
+   --title-text-color: #212121;
+   ---accent-color: #2196F3;
+}
+
+
 body {
-   font-family: roboto;
+   color: #E5E5E5;
+   background-color: #E5E5E5;
 }
-/* Шапка*/
-
-/* Top Line*/
-.top-line {
-   background: #FFFFFF;
-}
-
-/* WebStudio */
 .logo {
-   color: #2196F3;
+   color: var(---accent-color)
 }
 .logo-studio {
    color: #000000;
 }
-
-/*nav-site*/
-.nav-site {
-   color: #212121;
+.list {
+   list-style: none;
 }
-.link {
+/* Site nav */
+.site-nav .link {
+   color: 
+   var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+   color: var(---accent-color);
+}
+.site-nav .link {
+   color: var(--title-text-color);
+}
+.site-nav .link .current {
+   color: var(---accent-color);
+}
+
+.aut-nav .link:hover, 
+.aut-nav .link:focus {
+   color: var(---accent-color);
+}
+.aut-nav .current {
    color: #757575;
 }
-
-.nav-site .link:hover,
-.nav-site .link:focus {
-   color: #2196F3;
-}
-/*Заголовок*/
-
+/* Hero */
 .hero {
    background-color: #2F303A;
 }
 .hero-title {
-   color: #FFFFFF;
-}
-.hero-button {
-   background-color: #2196F3;
-   color: #FFFFFF;
-}
-/*Особенности*/
-.section {
-   background-color: #E5E5E5;
-}
-.subtitle {
-   #212121
-}
-.text {
-   #757575
-}
-/*Чем мы занимаемся*/
-.section-title{
-   color: #212121;
+   color: var(--primary-white-color);
 }
 
-.list .pic {
-   left: 1015px;
-   top: 1061px;
+/* Section */
+
+
+
+.section-title {
+   color: var(--title-text-color);
 }
+
+/* Features */
+.features .title {
+   color: var(--title-text-color);
+}
+.features .text {
+   color: #757575;
+}
+
+/* Button */
+.button {
+   color: var(--primary-white-color);
+   background-color: var(---accent-color);
+}
+
+/* User */
+
+.user-list .title {
+   color: var(--title-text-color);
+}
+.user-list .text {
+   color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* цвет основного текста ##212121 */
+/* первичный цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+
+/* первичный цвет #757575 */
+
+/* акцент #2196F3 */
+
+/* белый #FFFFFF */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
