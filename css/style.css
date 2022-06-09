@@ -9,9 +9,16 @@
 body {
    color: #E5E5E5;
    background-color: #E5E5E5;
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
 }
+/* Logo */
 .logo {
-   color: var(---accent-color)
+   color: var(---accent-color);
+   font-family: Raleway;
+  
+   font-size: 26px;
+   line-height: 31px;
 }
 .logo-studio {
    color: #000000;
@@ -21,15 +28,16 @@ body {
 }
 /* Site nav */
 .site-nav .link {
-   color: 
-   var(--title-text-color);
+   color: var(--title-text-color);
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
    color: var(---accent-color);
-}
-.site-nav .link {
-   color: var(--title-text-color);
 }
 .site-nav .link.current {
    color: var(---accent-color);
@@ -41,21 +49,45 @@ body {
 }
 .aut-nav .current {
    color: #757575;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+
 }
 /* Hero */
 .hero {
    background-color: #2F303A;
 }
 .hero-title {
+   
    color: var(--primary-white-color);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 60px;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+
 }
 
 /* Section */
-
-
-
 .section-title {
    color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.section .title {
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
 }
 
 /* Features */
@@ -63,13 +95,35 @@ body {
    color: var(--title-text-color);
 }
 .features .text {
-   color: #757575;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: #757575;
+
 }
 
 /* Button */
 .button {
    color: var(--primary-white-color);
    background-color: var(---accent-color);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 30px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+}
+
+
+.button.primary {
+
+}
+
+.button.secondary {
+
 }
 
 /* User */
