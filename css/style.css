@@ -16,9 +16,9 @@ body {
 .logo {
    color: var(---accent-color);
    font-family: Raleway;
-  
    font-size: 26px;
    line-height: 31px;
+   text-decoration: none;
 }
 .logo-studio {
    color: #000000;
@@ -34,6 +34,7 @@ body {
    font-size: 14px;
    line-height: 16px;
    letter-spacing: 0.02em;
+   text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -53,6 +54,7 @@ body {
    font-size: 14px;
    line-height: 16px;
    letter-spacing: 0.02em;
+   text-decoration: none;
 
 }
 /* Hero */
@@ -135,6 +137,7 @@ body {
    color: #757575;
 }
 
+/* Footer */
 
 
 
@@ -149,16 +152,6 @@ body {
 
 
 
-/* цвет основного текста ##212121 */
-/* первичный цвет фона #E5E5E5 */
-/* вторичный цвет фона #F5F4FA */
-
-/* первичный цвет #757575 */
-
-/* акцент #2196F3 */
-
-/* белый #FFFFFF */
- 
 
 
 
