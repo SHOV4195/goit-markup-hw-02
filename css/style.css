@@ -1,24 +1,42 @@
 :root {
-   --primary-text-color: #F5F4FA;
+   /* Fonts */
+   --main-font: "Roboto";
+   --secondary-font: "Raleway";
+
+   /* Text colors */
    --primary-white-color: #FFFFFF;
-   --title-text-color: #212121;
-   ---accent-color: #2196F3;
+   --primary-black-color: #212121;
+   --accent-color: #2196F3;
 }
 
+/* Bg colors */
+
+/* Other */
 
 body {
-   color: #E5E5E5;
-   background-color: #E5E5E5;
-   font-family: Roboto, sans-serif;
-   letter-spacing: 0.03em;
+   font-family: var(--main-font), sans-serif;
+   font-size: 14px;
+
 }
+/* Common styles start */
+.link {
+   text-decoration: none;
+}
+.list {
+   list-style: none;
+}
+
+
+
+
+/* Common styles start */
+
 /* Logo */
 .logo {
-   color: var(---accent-color);
+   color: var(--accent-color);
    font-family: Raleway;
    font-size: 26px;
    line-height: 31px;
-   text-decoration: none;
 }
 .logo-studio-light {
    color: #000000;
@@ -26,30 +44,26 @@ body {
 .logo-studio-dark {
    color: var(--primary-white-color);
 }
-.list {
-   list-style: none;
-}
+
 /* Site nav */
 .site-nav .link {
-   color: var(--title-text-color);
-   font-family: 'Roboto';
+   color: var(--primary-black-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
    letter-spacing: 0.02em;
-   text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
-   color: var(---accent-color);
+   color: var(--accent-color);
 }
 .site-nav .link.current {
-   color: var(---accent-color);
+   color: var(--accent-color);
 }
 
 .aut-nav .link:hover, 
 .aut-nav .link:focus {
-   color: var(---accent-color);
+   color: var(--accent-color);
 }
 .aut-nav .current {
    color: #757575;
@@ -97,7 +111,7 @@ body {
 
 /* Features */
 .features .title {
-   color: var(--title-text-color);
+   color: var(--primary-black-color);
 }
 .features .text {
       font-weight: 400;
@@ -111,7 +125,7 @@ body {
 /* Button */
 .button {
    color: var(--primary-white-color);
-   background-color: var(---accent-color);
+   background-color: var(--accent-color);
    font-style: normal;
    font-weight: 700;
    font-size: 16px;
@@ -134,7 +148,7 @@ body {
 /* User */
 
 .user-list .title {
-   color: var(--title-text-color);
+   color: var(--primary-black-color);
 }
 .user-list .text {
    color: #757575;
