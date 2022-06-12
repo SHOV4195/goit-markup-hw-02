@@ -7,6 +7,7 @@
    --primary-white-color: #FFFFFF;
    --primary-black-color: #212121;
    --accent-color: #2196F3;
+   --uppertitle-text: #757575;
 }
 
 /* Bg colors */
@@ -25,9 +26,6 @@ body {
 .list {
    list-style: none;
 }
-
-
-
 
 /* Common styles start */
 
@@ -66,7 +64,7 @@ body {
    color: var(--accent-color);
 }
 .aut-nav .current {
-   color: #757575;
+   color: var(--uppertitle-text);
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -118,8 +116,7 @@ body {
       font-size: 14px;
       line-height: 24px;
       letter-spacing: 0.03em;
-      color: #757575;
-
+      color: var(--uppertitle-text);
 }
 
 /* Button */
@@ -135,6 +132,23 @@ body {
    text-align: center;
    letter-spacing: 0.06em;
 }
+.filters {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   background-color: #F5F4FA;
+   color: var(--primary-black-color);
+   
+}
+.filters-button:hover,
+.filters-button:focus {
+   background-color: var(--accent-color);
+   color: var(--primary-white-color);
+   cursor: pointer;;
+}
+
 
 
 .button.primary {
@@ -151,18 +165,43 @@ body {
    color: var(--primary-black-color);
 }
 .user-list .text {
-   color: #757575;
+   color: var(--uppertitle-text);
 }
 
 /* Footer */
+.footer {
+   background-color: #2F303A;
+}
 .footer-address {
    font-weight: 400;
    font-size: 14px;
    line-height: 24px;
    letter-spacing: 0.03em;
 }
+.footer-address-link {
+   color: var(--primary-white-color);
+}
+.aut-address {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Project */
 
 
+.project-text {
+   color: var(--primary-black-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 36px;
+   letter-spacing: 0.06em;
+}
+.project-uppertitle {
+   color: var(--uppertitle-text);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em;
+}
 
 
 
