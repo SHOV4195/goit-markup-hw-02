@@ -20,8 +20,11 @@ body {
    line-height: 31px;
    text-decoration: none;
 }
-.logo-studio {
+.logo-studio-light {
    color: #000000;
+}
+.logo-studio-dark {
+   color: var(--primary-white-color);
 }
 .list {
    list-style: none;
@@ -138,6 +141,13 @@ body {
 }
 
 /* Footer */
+.footer-address {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+}
+
 
 
 
