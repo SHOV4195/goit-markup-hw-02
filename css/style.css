@@ -21,11 +21,9 @@
 
 body {
    font-family: var(--main-font), sans-serif;
-   background-color: var(--primary-white-color);
-   color: var(--primary-black-color);
    font-size: 14px;
    letter-spacing: 0.03em;
-
+   color: var(--primary-black-color);
 }
 /* Common styles start */
 .link {
@@ -39,8 +37,9 @@ body {
 
 /* Logo */
 .logo {
+   font-family: var(--secondary-font), sans-serif;
    color: var(--accent-color);
-
+   font-weight: 700;
    font-family: Raleway;
    line-height: 1.19;
 }
