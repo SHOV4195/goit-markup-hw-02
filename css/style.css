@@ -19,6 +19,20 @@
 
 /* Other */
 
+
+
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+
+
 body {
    font-family: var(--main-font), sans-serif;
    font-size: 14px;
