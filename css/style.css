@@ -154,7 +154,7 @@ body {
 
 /* Button */
 .button {
-   font-family: var(--secondary-font);
+   font-family: var(--main-font);
    color: var(--primary-white-color);
    background-color: var(--accent-color);
    font-style: normal;
@@ -173,19 +173,20 @@ body {
 /* Filters-button */
 
 .filters-button {
+   font-family: var(--main-font);
    font-weight: 500;
-   font-size: 16px;
-   line-height: 26px;
+   line-height: 1.62;
    text-align: center;
+   letter-spacing: 0.03em;
    background-color: var(--secondary-background-color);
    color: var(--primary-black-color);
+   cursor: pointer;
 }
 
 .filters-button:hover,
 .filters-button:focus {
    background-color: var(--accent-color);
    color: var(--primary-white-color);
-   cursor: pointer;
 }
 
 
@@ -218,7 +219,7 @@ body {
 }
 .footer-address-link:hover,
 .footer-address-link:focus {
-   color: var(--primary-white-color);
+   color: var(--accent-color);
 }
 
 
@@ -228,17 +229,18 @@ body {
 
 .aut-address:hover,
 .aut-address:focus {
-   background-color: #2F303A;
+   color: var(--accent-color);
 }
 /* Project */
 .project {
-   background-color: var(--primary-background-color);
+
 }
 
 .project-text {
    color: var(--primary-black-color);
    font-weight: 700;
-   line-height: 2;
+   font-size: 18px;
+   line-height: 36px;
    letter-spacing: 0.06em;
 }
 .project-uppertitle {
