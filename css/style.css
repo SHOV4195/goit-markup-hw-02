@@ -8,13 +8,10 @@
    --primary-black-color: #212121;
    --accent-color: #2196F3;
    --upper-title-text: #757575;
-/* Bg colors */
---primary-background-color: #E5E5E5;
---secondary-background-color: #F5F4FA;
+   /* Bg colors */
+   --primary-background-color: #E5E5E5;
+   --secondary-background-color: #F5F4FA;
 }
-
-
-
 
 
 /* Other */
@@ -40,7 +37,40 @@ body {
    color: var(--primary-black-color);
    background-color: var(--primary-white-color);
 }
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+p {
+   margin: 0;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+
+
+
+
+
 /* Common styles start */
+
+.container {
+   width: 12000px;
+   margin-left: auto;
+   margin-right: auto;
+
+   outline: 5px solid red;
+}
+
+
+
+
 .link {
    text-decoration: none;
 }
@@ -50,13 +80,33 @@ body {
 
 /* Common styles start */
 
+
+
+/* Header */
+.header-conteiner {
+      display: flex;
+      align-items: center;
+}
+
+.header-list-item:not(:last-child) {
+   margin-right: 40px;
+}
+
+.site-nav-item {
+   display: flex;
+   padding-top: 52px;
+   padding-bottom: 52px;
+   
+}
+
 /* Logo */
 .logo {
    font-family: var(--secondary-font), sans-serif;
    color: var(--accent-color);
    font-weight: 700;
    font-size: 26px;
-   line-height: 31px;
+   line-height: 1.19;
+
 }
 .logo-studio-light {
    color: #000000;
@@ -66,6 +116,23 @@ body {
 }
 
 /* Site nav */
+.header-nav {
+   display: block; 
+}
+
+.site-nav {
+   display: flex;
+}
+.site-nav .item {
+   margin-right: 50px;
+   outline: 1px solid red;
+}
+.site-nav .item:last-child {
+   margin-right: 0px;
+}
+
+
+
 .site-nav .link {
    color: var(--primary-black-color);
    font-weight: 500;
@@ -90,8 +157,12 @@ body {
    line-height: 1.14;
    letter-spacing: 0.02em;
    text-decoration: none;
+}
+.container-aut {
+   display: inline-block;
 
 }
+
 /* Hero */
 .hero {
    background-color: #2F303A;
@@ -101,7 +172,7 @@ body {
    color: var(--primary-white-color);
    font-weight: 900;
    font-size: 44px;
-   line-height: 60px;
+   line-height: 1.36;
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
@@ -119,7 +190,7 @@ body {
    color: var(--title-text-color);
    font-weight: 700;
    font-size: 36px;
-   line-height: 42px;
+   line-height: 1.16;
    text-align: center;
 }
 
@@ -143,25 +214,30 @@ body {
    text-transform: uppercase;
    font-weight: 700;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 1.14;
 }
 .features .text {
       font-weight: 400;
       font-size: 14px;
-      line-height: 24px;
+      line-height: 1.71;
       color: var(--upper-title-text);
 }
 
 /* Button */
 .button {
+   display: inline-block;
+   border-radius: 4px;
+   padding: 10px 32px;
+   min-width: 200px;
+
    font-family: var(--main-font);
    color: var(--primary-white-color);
    background-color: var(--accent-color);
+
    font-style: normal;
    font-weight: 700;
    line-height: 1.87;
-   display: flex;
-   align-items: center;
+   text-decoration: none;
    text-align: center;
    letter-spacing: 0.06em;
 }
@@ -170,7 +246,13 @@ body {
 .button:focus {
    background-color: #188CE8;
 }
-/* Filters-button */
+/* Filters */
+.filters {
+   display: inline-block;
+   border-radius: 4px;
+   padding: 22px 6px;
+   min-width: 73px;
+}
 
 .filters-button {
    font-family: var(--main-font);
@@ -196,13 +278,13 @@ body {
    color: var(--primary-black-color);
    font-weight: 500;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 1.18;
 }
 .user-list .text {
    color: var(--upper-title-text);
    font-weight: 400;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 1.18;
 }
 
 /* Footer */
@@ -212,7 +294,7 @@ body {
 .footer-address {
    font-weight: 400;
    font-size: 14px;
-   line-height: 24px;
+   line-height: 1.71;
 }
 .footer-address-link {
    color: var(--primary-white-color);
@@ -240,7 +322,7 @@ body {
    color: var(--primary-black-color);
    font-weight: 700;
    font-size: 18px;
-   line-height: 36px;
+   line-height: 2;
    letter-spacing: 0.06em;
 }
 .project-uppertitle {
