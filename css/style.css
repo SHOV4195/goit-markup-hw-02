@@ -61,11 +61,10 @@ img {
 /* Common styles start */
 
 .container {
-   width: 12000px;
+   width: 1200px;
    margin-left: auto;
    margin-right: auto;
-
-   outline: 5px solid red;
+   outline: 1px solid red;
 }
 
 
@@ -76,6 +75,8 @@ img {
 }
 .list {
    list-style: none;
+   padding: 0;
+   margin: 0;
 }
 
 /* Common styles start */
@@ -101,6 +102,7 @@ img {
 
 /* Logo */
 .logo {
+   margin-bottom: 25px;
    font-family: var(--secondary-font), sans-serif;
    color: var(--accent-color);
    font-weight: 700;
@@ -166,18 +168,21 @@ img {
 /* Hero */
 .hero {
    background-color: #2F303A;
+   text-align: center;
 }
+
 .hero-title {
-   
+   margin-bottom: 30px;
+   margin-top: 0px;
+
    color: var(--primary-white-color);
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
-   text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
-
 }
+
 
 /* Section */
 .section-team {
@@ -187,6 +192,8 @@ img {
 
 
 .section-title {
+   margin-top: 0px;
+   margin-bottom: 50px;
    color: var(--title-text-color);
    font-weight: 700;
    font-size: 36px;
@@ -209,13 +216,19 @@ img {
 
 
 /* Features */
+.title {
+   margin-bottom: 15px;
+   margin-top: 0;
+}
 .features .title {
+   margin-bottom: 15px;
    color: var(--primary-black-c);
    text-transform: uppercase;
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
 }
+
 .features .text {
       font-weight: 400;
       font-size: 14px;
@@ -229,6 +242,7 @@ img {
    border-radius: 4px;
    padding: 10px 32px;
    min-width: 200px;
+   
 
    font-family: var(--main-font);
    color: var(--primary-white-color);
@@ -248,18 +262,21 @@ img {
 }
 /* Filters */
 .filters {
-   display: inline-block;
-   border-radius: 4px;
-   padding: 22px 6px;
-   min-width: 73px;
+
 }
 
 .filters-button {
+   display: inline-block;
+   border-radius: 4px;
+   padding: 6px 22px;
+   min-width: 73px;
+
    font-family: var(--main-font);
    font-weight: 500;
    line-height: 1.62;
    text-align: center;
    letter-spacing: 0.03em;
+
    background-color: var(--secondary-background-color);
    color: var(--primary-black-color);
    cursor: pointer;
@@ -275,6 +292,7 @@ img {
 /* User */
 
 .user-list .title {
+   margin-bottom: 10px;
    color: var(--primary-black-color);
    font-weight: 500;
    font-size: 16px;
